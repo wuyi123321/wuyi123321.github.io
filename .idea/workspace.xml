@@ -2,32 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8b9d19e-cf39-4229-9cf8-43c23ca44d2d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/com/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.437704a9f8d20451497c06e18e387bc9.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.437704a9f8d20451497c06e18e387bc9.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/icon/iconfont.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/icon/iconfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/icon/iconfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/icon/iconfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/icon/iconfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/bg.465adb6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/mucbg.f490f91.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/0.4cdc5cd7900c8900ee6e.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/0.4cdc5cd7900c8900ee6e.js.map" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gobang.9ae3d10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/zhuye-180804a.a2c4e9e.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/zhuye-180804b.6ce9431.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/app.8fb58bafe9c390412d03195c5670f817.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/0.447d71b4ff80d45a1c26.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/0.447d71b4ff80d45a1c26.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/1.c9abaf55701124e81802.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/1.c9abaf55701124e81802.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/app.fb55ec71e636a18015a9.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/project/convas/Gobang.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.0cf3c971fce1e6f9eef2c397ec84d2c2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.0cf3c971fce1e6f9eef2c397ec84d2c2.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/0.bb48917eeb3beeac731e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/0.bb48917eeb3beeac731e.js.map" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/1.9c923a367f757b63dd6e.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/1.9c923a367f757b63dd6e.js.map" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/2.6441b35f35834321bb0c.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/2.6441b35f35834321bb0c.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/3.4e362e75924dbc8f3d05.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/3.4e362e75924dbc8f3d05.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.e4f6d151b6aa5a750e68.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.e4f6d151b6aa5a750e68.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/manifest.d841f8a2a628f56adf4d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/manifest.d841f8a2a628f56adf4d.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/vendor.6d0fb144fe0cb5d8f49f.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/vendor.6d0fb144fe0cb5d8f49f.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/song.606ca17.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.82f410c38ec93276165f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.82f410c38ec93276165f.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/manifest.7b87762f89b8a502c813.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/manifest.7b87762f89b8a502c813.js.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/css/app.0cf3c971fce1e6f9eef2c397ec84d2c2.css" afterPath="$PROJECT_DIR$/static/css/app.8fb58bafe9c390412d03195c5670f817.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/1.9c923a367f757b63dd6e.js" afterPath="$PROJECT_DIR$/static/js/2.32b0dd85d75d474b9d15.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/1.9c923a367f757b63dd6e.js.map" afterPath="$PROJECT_DIR$/static/js/2.32b0dd85d75d474b9d15.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/app.82f410c38ec93276165f.js" afterPath="$PROJECT_DIR$/static/js/app.fb55ec71e636a18015a9.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/manifest.7b87762f89b8a502c813.js" afterPath="$PROJECT_DIR$/static/js/manifest.8ba5829127fe6de91555.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/manifest.7b87762f89b8a502c813.js.map" afterPath="$PROJECT_DIR$/static/js/manifest.8ba5829127fe6de91555.js.map" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,8 +66,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="165" />
-    <option name="y" value="148" />
+    <option name="x" value="737" />
+    <option name="y" value="202" />
     <option name="width" value="1546" />
     <option name="height" value="894" />
   </component>
@@ -131,15 +134,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535005151380</updated>
-      <workItem from="1535005152645" duration="17000" />
+      <workItem from="1535005152645" duration="793000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17000" />
+    <option name="totallyTimeSpent" value="793000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="165" y="148" width="1546" height="894" extended-state="0" />
+    <frame x="737" y="202" width="1546" height="894" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14522547" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
