@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>canvas五子棋</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    canvas{
+        margin: 20px auto;
+    }
+    #right{
+        background: #00aa00;
+        text-align: center;
+    }
+    #right div{
+        margin: 10px auto;
+        width: 80%;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+    }
+</style>
+<body>
+<div style="margin-left: 80px">
+    <canvas id="canvas1" width="500px" height="500px" style="float:left;border: solid #999 1px"></canvas>
+</div>
+
+<div id="right" style="float: left;width: 80px;height: 100px;margin: 50px 20px;border: solid #aaa 1px">
+    <div id="black" style="background: #fff">黑棋走</div>
+    <div id="write">白棋走</div>
+</div>
+</body>
+<script>
+    var can = document.getElementById("canvas1");
+    var draw = can.getContext("2d");
+    draw.strokeStyle="#666";
+    draw.lineCap="round";
+    for(var i=35;i<=455;i+=30){
+        draw.moveTo(i,35);
+        draw.lineTo(i,455);
+    }
+    for(var i=35;i<470;i+=30){
+        draw.moveTo(35,i);
+        draw.lineTo(455,i);
+    }
+    draw.stroke();
+    draw.fillText("五子棋",230,20);
+    var d=Math.PI/360;
+    var flag =0;
+    var dot=[];
+    function drowcolor(flag) {
+      if(flag%2==0){
+        document.getElementById("write").setAttribute("style","background:#0a0");
+        document.getElementById("black").setAttribute("style","background:#fff");
+        return "#fff"
+      }else {
+        document.getElementById("black").setAttribute("style","background:#0a0");
+        document.getElementById("write").setAttribute("style","background:#fff");
+       return "#555";
+      }
+    }
+    can.addEventListener('click',function (e) {
+        var x,y;
+        flag++;
+        draw.fillStyle = drowcolor(flag)
+        console.log(e);
+        x=e.clientX-80;
+        y=e.clientY-20;
+        if((x-35)%30<15){
+            x=x-(x-35)%30;
+        }else {
+            x=x+(30-(x-35)%30);
+        }
+        if((y-35)%30<15){
+            y=y-(y-35)%30;
+        }else {
+            y=y+(30-(y-35)%30);
+        }
+        a = {sx:(x-5)/30,sy:(y-5)/30};
+        if(JSON.stringify(dot).indexOf(JSON.stringify(a))==-1){
+            dot.push(a);
+            draw.beginPath();
+            draw.arc(x,y,12,0,2*Math.PI,false);
+            draw.stroke();
+            draw.fill();
+        }else{
+           flag--;
+          drowcolor(flag)
+        }
+    })
+</script>
+</html>
